@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="calendarClient">
+<head lang="en">
+    <title>English Professional</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <script src="js/angular.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <div ng-controller="CalendarEventReceiver">
+        <p>The current date is {{calendarEvent.startDateTime.dayOfMonth}} {{calendarEvent.startDateTime.month}} {{calendarEvent.startDateTime.year}}</p>
+    </div>
+</body>
+</html>
